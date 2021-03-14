@@ -1,10 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import './CSS/Quiz.css'
+import './CSS/Boxes.css'
+// import { render } from '@testing-library/react';
+import Box1 from './Components/Boxes/Box1';
+import Quiz from './Components/Quiz/Quiz';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
+
+    < div className="App" >
+      <Quiz/>
+      {/* <Box1/> */}
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -15,10 +23,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Click Me
         </a>
-      </header>
-    </div>
+      </header> */}
+    </div >
   );
 }
 

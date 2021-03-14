@@ -1,0 +1,16 @@
+.quiz{
+    width: 600px;
+    height: 400px;
+    border: 3px solid black;
+    margin:10% auto;
+    padding:2rem ;
+}
+.quizTitle{
+    text-align: center;
+}
+.q1Title,.q2Title{
+    margin-top: 50px;
+}
+.q1Input,.q2Input{
+    margin-top: 20px;
+}

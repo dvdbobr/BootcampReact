@@ -13,16 +13,18 @@
 // import HideAndSeekFunc from './day2/Components/HideAndSeekFunc';
 // import IncrementFunction from './day2/Components/IncrementFunction';
 // import LifeCycleMethods from './day3/Components/LifeCycleMethods';
-import BoxAnimations from './day3/Components/BoxAnimations';
-import './day3/CSS/boxAnimation.css'
+// import BoxAnimations from './day3/Components/BoxAnimations';
+// import './day3/CSS/boxAnimation.css'
+import BoxColorAndShape from './day3/Components/BoxColorAndShape';
 function App() {
 
   return (
 
     < div className="App" >
-      <BoxAnimations widthSize={200} heightSize={200} bgColor="red"/>
+      <BoxColorAndShape/>
+      {/* <BoxAnimations widthSize={200} heightSize={200} bgColor="red"/>
       <BoxAnimations widthSize={300} heightSize={200} bgColor="green"/>
-      <BoxAnimations widthSize={200} heightSize={100} bgColor="lightBlue"/>
+      <BoxAnimations widthSize={200} heightSize={100} bgColor="lightBlue"/> */}
       {/* <LifeCycleMethods/> */}
       {/* <HideAndSeekFunc/> */}
       {/* <IncrementFunction/> */}

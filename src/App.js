@@ -9,17 +9,21 @@
 // import './CSS/cards.css';
 // import Cards from './Components/Cards-4.2/Cards';
 // import Increment from './day2/Components/Increment';
-import HideAndSeek from './day2/Components/HideAndSeek';
-import HideAndSeekFunc from './day2/Components/HideAndSeekFunc';
-import IncrementFunction from './day2/Components/IncrementFunction';
-import LifeCycleMethods from './day3/Components/LifeCycleMethods';
-
+// import HideAndSeek from './day2/Components/HideAndSeek';
+// import HideAndSeekFunc from './day2/Components/HideAndSeekFunc';
+// import IncrementFunction from './day2/Components/IncrementFunction';
+// import LifeCycleMethods from './day3/Components/LifeCycleMethods';
+import BoxAnimations from './day3/Components/BoxAnimations';
+import './day3/CSS/boxAnimation.css'
 function App() {
 
   return (
 
     < div className="App" >
-      <LifeCycleMethods/>
+      <BoxAnimations widthSize={200} heightSize={200} bgColor="red"/>
+      <BoxAnimations widthSize={300} heightSize={200} bgColor="green"/>
+      <BoxAnimations widthSize={200} heightSize={100} bgColor="lightBlue"/>
+      {/* <LifeCycleMethods/> */}
       {/* <HideAndSeekFunc/> */}
       {/* <IncrementFunction/> */}
       {/* <HideAndSeek/> */}

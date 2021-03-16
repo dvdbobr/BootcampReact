@@ -10,13 +10,19 @@
 // import Cards from './Components/Cards-4.2/Cards';
 // import Increment from './day2/Components/Increment';
 import HideAndSeek from './day2/Components/HideAndSeek';
+import HideAndSeekFunc from './day2/Components/HideAndSeekFunc';
+import IncrementFunction from './day2/Components/IncrementFunction';
+import LifeCycleMethods from './day3/Components/LifeCycleMethods';
 
 function App() {
 
   return (
 
     < div className="App" >
-      <HideAndSeek/>
+      <LifeCycleMethods/>
+      {/* <HideAndSeekFunc/> */}
+      {/* <IncrementFunction/> */}
+      {/* <HideAndSeek/> */}
       {/* <Increment/> */}
       {/* <div className="flex">
         <Cards url="https://images.pexels.com/photos/3738673/pexels-photo-3738673.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" title="random title 1" description="description1" shareLink="share1" exploreLink="explore1" />

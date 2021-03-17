@@ -18,6 +18,7 @@
 // import BoxColorAndShape from './day3/Components/BoxColorAndShape';
 // import Spinner from './day3/Components/Spinner';
 
+import CheckBox from "./day4/Components/CheckBox";
 import ChildToFatherColors from "./day4/Components/ChildToFatherColors";
 
 function App() {
@@ -25,7 +26,11 @@ function App() {
   return (
 
     < div className="App" >
-      <ChildToFatherColors/>
+      <CheckBox txt={"I read the term of the app"}/>
+      <CheckBox txt={"I accept the term of the app"}/>
+      <CheckBox txt={"I want to get the weekly news letter"} isChecked={true}/>
+      <CheckBox txt={"I want to get sales and offers"} isChecked={true}/>
+      {/* <ChildToFatherColors/> */}
       {/* <Spinner/> */}
       {/* <BoxColorAndShape/> */}
       {/* <BoxAnimations widthSize={200} heightSize={200} bgColor="red"/>

@@ -15,13 +15,19 @@
 // import LifeCycleMethods from './day3/Components/LifeCycleMethods';
 // import BoxAnimations from './day3/Components/BoxAnimations';
 // import './day3/CSS/boxAnimation.css'
-import BoxColorAndShape from './day3/Components/BoxColorAndShape';
+// import BoxColorAndShape from './day3/Components/BoxColorAndShape';
+// import Spinner from './day3/Components/Spinner';
+
+import ChildToFatherColors from "./day3/Components/ChildToFatherColors";
+
 function App() {
 
   return (
 
     < div className="App" >
-      <BoxColorAndShape/>
+      <ChildToFatherColors/>
+      {/* <Spinner/> */}
+      {/* <BoxColorAndShape/> */}
       {/* <BoxAnimations widthSize={200} heightSize={200} bgColor="red"/>
       <BoxAnimations widthSize={300} heightSize={200} bgColor="green"/>
       <BoxAnimations widthSize={200} heightSize={100} bgColor="lightBlue"/> */}

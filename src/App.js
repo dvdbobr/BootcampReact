@@ -17,19 +17,22 @@
 // import './day3/CSS/boxAnimation.css'
 // import BoxColorAndShape from './day3/Components/BoxColorAndShape';
 // import Spinner from './day3/Components/Spinner';
+// import CheckBox from "./day4/Components/CheckBox";
+// import ChildToFatherColors from "./day4/Components/ChildToFatherColors";
 
-import CheckBox from "./day4/Components/CheckBox";
-import ChildToFatherColors from "./day4/Components/ChildToFatherColors";
+import FormReview from "./day4/Components/ex11.3/FormReview";
+
 
 function App() {
 
   return (
 
     < div className="App" >
-      <CheckBox txt={"I read the term of the app"}/>
+      <FormReview/>
+      {/* <CheckBox txt={"I read the term of the app"}/>
       <CheckBox txt={"I accept the term of the app"}/>
       <CheckBox txt={"I want to get the weekly news letter"} isChecked={true}/>
-      <CheckBox txt={"I want to get sales and offers"} isChecked={true}/>
+      <CheckBox txt={"I want to get sales and offers"} isChecked={true}/> */}
       {/* <ChildToFatherColors/> */}
       {/* <Spinner/> */}
       {/* <BoxColorAndShape/> */}

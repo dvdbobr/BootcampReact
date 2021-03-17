@@ -18,7 +18,7 @@
 // import BoxColorAndShape from './day3/Components/BoxColorAndShape';
 // import Spinner from './day3/Components/Spinner';
 
-import ChildToFatherColors from "./day4/ChildToFatherColors";
+import ChildToFatherColors from "./day4/Components/ChildToFatherColors";
 
 function App() {
 
